@@ -14,9 +14,8 @@ y[1] = "Turkey!"
 ft_tuple = tuple(y)
 
 # part of set
-set_Ist = {"Istanbul!"}
 ft_set.remove("tutu!")
-ft_set.update(set_Ist)
+ft_set.add("Istanbul!")
 
 # part of dictionaries
 ft_dict["Hello"] = "42Istanbul!"
