@@ -1,6 +1,7 @@
 import string
 import sys
 
+
 def main():
     if len(sys.argv) == 2:
         message = sys.argv[1]
@@ -11,7 +12,6 @@ def main():
         print(count, "punctuation marks")
         print(sum(1 for s in message if s.isspace()), "spaces")
         print(sum(1 for n in message if n.isdigit()), "digits")
-
     else:
         print("What is the text to count?")
         message = sys.stdin.read()
@@ -22,6 +22,7 @@ def main():
         print(count, "punctuation marks")
         print(sum(1 for s in message if s.isspace()), "spaces")
         print(sum(1 for n in message if n.isdigit()), "digits")
+
 
 if __name__ == "__main__":
     main()
